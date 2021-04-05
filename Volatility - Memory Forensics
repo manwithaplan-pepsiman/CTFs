@@ -1,0 +1,23 @@
+imaging memory from live computer
+    FTK Imager - Link
+    Redline - Link *Requires registration but Redline has a very nice GUI
+    DumpIt.exe
+    win32dd.exe / win64dd.exe - *Has fantastic psexec support, great for IT departments if your EDR solution doesn't support this
+    
+Imaging memory from offline computer
+    %SystemDrive%/hiberfil.sys - Windows
+    
+Getting to running commands
+    1. volatility -f MEMORY_FILE.raw imageinfo (This will give you usable profiles)
+    2. volatility -f MEMORY_FILE.raw --profile=PROFILE [command]
+    
+[Commands]
+pslist - Views running processes
+netscan - Shows active connections (Depending on age, might not work)
+psxview - Shows hidden processes
+ldrmodules - Shows injected processes
+apihooks - Shows unexpected patches in DLLs
+malfind - Shows malicious code, can be outputed with -D <destination directory>
+dlldump - Shows DLLs loaded into memory have to specify process with --pid=PID -D <destination directory>
+
+https://tryhackme.com/room/bpvolatility - more resources
