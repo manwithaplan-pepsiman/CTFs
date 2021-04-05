@@ -21,3 +21,5 @@ malfind - Shows malicious code, can be outputed with -D <destination directory>
 dlldump - Shows DLLs loaded into memory have to specify process with --pid=PID -D <destination directory>
 
 https://tryhackme.com/room/bpvolatility - more resources
+
+https://book.hacktricks.xyz/forensics/volatility-examples
