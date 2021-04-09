@@ -1,0 +1,5 @@
+run post/multi/recon/local_exploit_suggester - Finds some useful post-exploitation exploits
+
+migrate -N <PROCESS NAME> - Allows you to migrate to a new process. Preferably spoolsv.exe
+
+load kiwi - Allows for password dumping (A bunch of privesc functions)
