@@ -3,3 +3,11 @@
 :8000 - Under development website (XSS is possible on this site)
 
 :8096 - Jellyfin login
+
+monitorr. domain is the key
+
+https://lyhinslab.org/index.php/2020/09/12/how-the-white-box-hacking-works-authorization-bypass-and-remote-code-execution-in-monitorr-1-7-6/
+
+https://www.exploit-db.com/exploits/48980
+
+This is where things get serious
