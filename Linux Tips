@@ -2,3 +2,6 @@ https://ssd-disclosure.com/ssd-advisory-overlayfs-pe/ (can get instant root Linu
 
 Use gobusters dns feature for enumeration of subdomains
 
+steghide for images, stegseek for passphrases
+
+if uploading to ftp ensure that the proper file permissions are set
