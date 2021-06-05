@@ -9,3 +9,5 @@ if uploading to ftp ensure that the proper file permissions are set
 https://gitlab.com/kalilinux/packages/linux-exploit-suggester - Maybe there are some exploits that you can use already?
 
 If a program is calling a function without using an explicit path, it could be intercepted and set to run a different program. https://www.shh.ninja/posts/security/htb-oopsie/#privilege-escalation
+
+Port Knocking - Way of disclosing ports locked behind a firewall. (https://d00mfist.gitbooks.io/ctf/content/port_knocking.html)
